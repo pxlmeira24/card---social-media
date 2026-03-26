@@ -1,0 +1,66 @@
+:root {
+  --color-blue: hwb(230 16% 3%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey-700: hsl(0, 0%, 20%);
+  --color-grey-800: hsl(0, 0%, 12%);
+  --color-grey-900: hsl(0, 0%, 8%);
+
+}
+
+body {
+  background-color: var(--color-grey-900);
+  font-family: "Inter", sans-serif;
+}
+
+ol {
+  list-style: none;
+  color: var(--color-blue)
+}
+
+.container {
+  background-color: var(--color-grey-800);
+  color: var(--color-white);
+  width: 550px;
+  text-align: center;
+}
+
+.container h2 {
+  color: var(--color-blue);
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.container h1 {
+  font-size: 38px;
+  font-weight: 300;
+}
+
+.container p {
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.container img{
+  width: 160px;
+  height: 159px;
+  border-radius: 50%;
+  border: 1px solid var(--color-blue);
+  transition: .60s;
+}
+
+.container:hover img{
+  border-color: var(--color-white);
+  scale: 1.1; 
+}
+
+.social li {
+  background-color: var(--color-grey-700);
+  
+}
+
+.social a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
