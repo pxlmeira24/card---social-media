@@ -1,0 +1,12 @@
+.idea/
+*.iml
+out/
+*.log
+.DS_Store
+Thumbs.db
+target/
+build/
+node_modules/
+.env
+.env.local
+.env.*.local
